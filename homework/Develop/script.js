@@ -20,4 +20,10 @@
         //and be able to save to local.Storage
 // WHEN I refresh the page
 // THEN the saved events persist
+var timeDisplayEl = $("#currentDay");
 
+function displayTime() {
+    var rightNow = moment().format("MMM DD, YYYY")
+    timeDisplayEl.text(rightNow);
+}
+displayTime()
