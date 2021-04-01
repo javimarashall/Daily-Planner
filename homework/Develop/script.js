@@ -21,9 +21,40 @@
 // WHEN I refresh the page
 // THEN the saved events persist
 var timeDisplayEl = $("#currentDay");
-
+//display time on jumbotron
 function displayTime() {
     var rightNow = moment().format("MMM DD, YYYY")
     timeDisplayEl.text(rightNow);
 }
 displayTime()
+
+document.querySelector(".saveBtn").addEventListener("click", function() {
+        //grab hold of my 9am user input
+        var userToDo = document.querySelector("#userInput9am").value;
+        localStorage.setItem("userInput9am", userToDo)
+        //
+})
+
+
+
+
+
+
+        //get user To Do
+        
+    
+        //get the history
+        var history = [];
+        
+            history = JSON.parse(localStorage.getItem("history")); 
+        
+        console.log("*****history",history);
+                
+        //create history entry
+        var historyEntry = userToDo
+            //push to history
+        history.push(historyEntry);
+    
+        //set history to localsorage
+        localStorage.setItem("history", JSON.stringify(history));        
+    });
