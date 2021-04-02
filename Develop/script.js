@@ -43,9 +43,9 @@ $(document).ready(function() {
                         var time = $(timeBlocks[i]).attr("time")
                         if (currentHour > time) {
                         $(timeBlocks[i]).addClass("past");
-                } else if (currentHour ===time) {
+                } else if (currentHour === time) {
                         $(timeBlocks[i]).addClass("present");
-                }else if (currentHour<time){
+                } else if (currentHour < time) {
                         $(timeBlocks[i]).addClass("future");
                 }
         }
