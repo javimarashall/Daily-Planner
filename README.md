@@ -1,7 +1,7 @@
 # Daily-Planner
 
 ## Site
-![Site](./assets/site.png)
+![Site](./Assets/site.png)
 
 ## Technologies Used 
 - HTML used to write the code for the daily planner
