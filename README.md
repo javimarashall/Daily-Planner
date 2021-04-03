@@ -1,7 +1,7 @@
 # Daily-Planner
 
 ## Site
-![Site](/assets/site.png)
+![Site](./assets/site.png)
 
 ## Technologies Used 
 - HTML used to write the code for the daily planner
@@ -30,3 +30,13 @@ This code snippet is included to show the relationship between the moment and th
                 }<br>
         }<br>
 };<br>
+
+## Repository Link
+https://github.com/javimarashall/Daily-Planner
+
+## Deploy LInk
+https://javimarashall.github.io/Daily-Planner/
+## Personal Links
+[Github](https://github.com/javimarashall)<br>
+[Linkedin](https://www.linkedin.com/in/javier-mondragon-7b471719b/)
+
